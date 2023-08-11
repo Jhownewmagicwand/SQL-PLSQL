@@ -1,0 +1,16 @@
+﻿prompt Importing table INSTRUTORES...
+set feedback off
+set define off
+insert into INSTRUTORES (COD_INSTRUTOR, NOME_INSTRUTOR, TEL_INSTRUTOR, ADMISSAO, PREÇO_HORA_INSTRUTOR, OBSOLESCENCIA)
+values (1, 'JHONATAN', '955555555', to_date('06-02-2020 13:32:00', 'dd-mm-yyyy hh24:mi:ss'), '0', 'MÉDIA');
+
+insert into INSTRUTORES (COD_INSTRUTOR, NOME_INSTRUTOR, TEL_INSTRUTOR, ADMISSAO, PREÇO_HORA_INSTRUTOR, OBSOLESCENCIA)
+values (2, 'LUCAS', '944444444', to_date('06-02-2020 13:32:00', 'dd-mm-yyyy hh24:mi:ss'), '4', 'MÉDIA');
+
+insert into INSTRUTORES (COD_INSTRUTOR, NOME_INSTRUTOR, TEL_INSTRUTOR, ADMISSAO, PREÇO_HORA_INSTRUTOR, OBSOLESCENCIA)
+values (3, 'GILSON', '912121212', to_date('06-02-2020 13:32:00', 'dd-mm-yyyy hh24:mi:ss'), '7', 'MÉDIA');
+
+insert into INSTRUTORES (COD_INSTRUTOR, NOME_INSTRUTOR, TEL_INSTRUTOR, ADMISSAO, PREÇO_HORA_INSTRUTOR, OBSOLESCENCIA)
+values (33, 'JOSIAS', '950505050', to_date('28-02-2020 16:15:21', 'dd-mm-yyyy hh24:mi:ss'), null, null);
+
+prompt Done.
